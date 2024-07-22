@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 const UseState = () => {
   const [counter, setCounter]=useState(0)
   const increment =()=>{
-    setCounter(3)
+    setCounter( counter + 1)
   }
   return (
     <div>
